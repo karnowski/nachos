@@ -3,16 +3,23 @@ Nachos
 
 Because everyone loves Nachos!
 
-Sync your watched repos with Github.  Manage them and stuff.  Never leave wifi again without all the codes you care about, local.
+Sync your watched repos with GitHub.  Manage them and stuff.  Never leave wifi again without all the codes you care about, local.
 
 And more.
 
 Workflow
 ================================
-
-* watch a project on github
+* watch a project on GitHub
 * run 'nachos sync'
 * magic - it is now up to date in your local repo and ready to go
+
+Prerequisites
+================================
+    gem install octopussy
+    gem install git-hub -v 1.4.1
+    # go to your GitHub / "Account Settings" / "Account Admin" page to learn your API key
+    git config --global github.user [your-github-account-name]
+    git config --global github.token [your-github-api-key]
 
 Release
 ================================
@@ -22,7 +29,6 @@ Release
 
 Note on Patches/Pull Requests
 ================================
- 
 * Fork the project.
 * Make your feature addition or bug fix.
 * Add tests for it. This is important so I don't break it in a
