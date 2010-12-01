@@ -18,6 +18,7 @@ begin
     gem.add_development_dependency "faker"
     gem.add_development_dependency "mocha"
     gem.add_development_dependency "fakeweb"
+    gem.add_development_dependency "log_buddy"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
